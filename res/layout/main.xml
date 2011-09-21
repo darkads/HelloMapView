@@ -4,14 +4,11 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
-
     <com.google.android.maps.MapView
-        android:id="@+id/mapview"
-        android:layout_width="fill_parent"
-        android:layout_height= "fill_parent"
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent"
+        android:enabled="true"
         android:clickable="true"
-        android:apiKey="0RQra2zrg4xeeTzf0US1zgT_po73ogWyZ166KNg"
-    />
-    <Button android:id="@+id/button1" android:text="Button" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginRight="190dp" android:layout_marginTop="34dp"></Button>
-
+        android:apiKey="0fJKoBXvkjaxqXZ_loYfQEEXmINxngMMjOROQSQ"
+        android:id="@+id/mapview"/>
 </RelativeLayout>
